@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.inputset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    height: 30px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+}
+
+.input:focus {
+    outline: 2px solid steelblue;
+}
+
+.btnsubmit {
+    background-color: crimson;
+    color: white;
+    margin: auto;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0;
+}

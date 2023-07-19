@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.3);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+.window {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 0 2px 0 grey;
+    border-radius: 5px;
+    padding: 20px;
+}
